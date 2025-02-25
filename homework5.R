@@ -3,21 +3,25 @@
 
 ## question 1
 
-n = 9
-
-for (i in 1:n) {
+q1 <- function(n) {
+  
+  for (i in 1:n) {
   cat(1:i, "\n")
+  } 
 }
 
+q1(9)
 
 ## question 2
 
-n = 9
-
-for (i in 1:n) {
+q2 <- function(n) {
+  
+  for (i in 1:n) {
   cat(strrep(i, i), "\n")
+  }
 }
 
+q2(9)
 
 ## question 3
 
